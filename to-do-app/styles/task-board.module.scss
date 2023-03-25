@@ -1,0 +1,17 @@
+.board {
+    border: 2px solid rgb(216, 209, 226);
+    width: 75%;
+    height: fit-content;
+    border-radius: 10px;
+    margin: 10px 5px 10px 5px;
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+}
+
+.listitem:hover {
+    cursor: pointer;
+    color:  rgb(138, 135, 135);
+}

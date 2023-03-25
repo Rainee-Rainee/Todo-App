@@ -1,0 +1,38 @@
+.taskInput {
+    width: 75%;
+    height: 100px;
+    font-size: larger;
+    border-radius: 10px;
+    background-color: rgb(216, 208, 230);
+    border: none;
+    margin: 10px 5px 10px 5px;
+    
+}
+
+.taskInput:focus {
+    outline: 2px solid rgb(160, 120, 224);
+}
+
+.taskInput::placeholder {
+    text-align: center;
+    line-height: 100px;
+}
+
+.createTaskBtn {
+    width: 75%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(160, 120, 224);
+    border: none;
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 10px 5px 10px 5px;
+}
+
+.createTaskBtn:hover{
+    box-shadow: 1px 1px 4px 1px rgb(226, 199, 233);
+}
+
+.createTaskBtn:active{
+    transform: scale(.99);
+}
